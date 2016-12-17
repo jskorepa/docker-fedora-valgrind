@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.3
+FROM fedora
 
 RUN apk add --update \
     valgrind gcc make libc-dev
