@@ -1,6 +1,6 @@
 FROM fedora
 
 RUN dnf -y install \
-    valgrind gcc make libc-dev
+    valgrind gcc make
 
 
